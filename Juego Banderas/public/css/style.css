@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+
+}
+
+.btn-primary {
+    background-color: #ffbf00;
+    border-color: #ffbf00;
+    box-shadow: 0 0 10px #ffbf00;
+}
