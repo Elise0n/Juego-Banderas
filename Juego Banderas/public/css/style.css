@@ -1,17 +1,32 @@
 body {
-    background-color: black;
+    background-color: #000;
     color: #fff;
     font-family: 'Press Start 2P', cursive;
-}
-
-.title {
-    color: #00ffff;
+  }
+  
+  .title {
+    color: #00ffff; /* Celeste neon */
     text-shadow: 0 0 10px #00ffff;
-
-}
-
-.btn-primary {
-    background-color: #ffbf00;
+  }
+  
+  .btn-primary {
+    background-color: #ffbf00; /* Ámbar/neon */
     border-color: #ffbf00;
     box-shadow: 0 0 10px #ffbf00;
-}
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+  }
+  
+  .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+    transition: all 0.3s ease;
+  }
+  .btn-outline-light:hover {
+    color: #ff00ff;  /* Magenta neon para hover */
+    border-color: #ff00ff;
+  }
+  
